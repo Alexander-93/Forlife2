@@ -4,12 +4,12 @@
     width: 95%;
   }
 
-  .head__logo{
+  .head__logo {
     clear: both;
     margin-left: 10px;
   }
 
-  .head__menu{
+  .head__menu {
     width: 100%;
     tc
   }
@@ -60,7 +60,7 @@
   line-height: 1;
   }
 
-  .info__stat-year1, .info__stat-year2{
+  .info__stat-year1, .info__stat-year2 {
     font-size: 200%;
   }
 
