@@ -1,0 +1,136 @@
+@media screen and (max-width: 980px) {
+
+  .container {
+    width: 95%;
+  }
+
+  .head__logo{
+    clear: both;
+    margin-left: 10px;
+  }
+
+  .head__menu{
+    width: 100%;
+    tc
+  }
+
+  .menu__element {
+    width: 100%; 
+    text-align: center;
+    clear: both;
+    font-size: 60px;
+  }
+
+  .menu__element-delimiter {
+    display: none;
+  }
+
+  .head__logo>img {
+    width: 650%;
+    height: 650%;
+  }
+
+  .content__heading1 {
+    clear: both;
+    font-size: 80px;
+    padding-top: 80px
+  }
+
+  .content__heading2 {
+    font-size: 60px;
+  }
+
+  .content__info {
+    width: 100%;   
+  }
+
+  .info__graph>img {
+    width: 99%;
+  }
+
+  .info__graph-people {
+    top: 42%;
+    left: -3%;
+  }
+
+  .info__growth {
+  top: 32%;
+  left: 60%;
+  font-size: 200%;
+  line-height: 1;
+  }
+
+  .info__stat-year1, .info__stat-year2{
+    font-size: 200%;
+  }
+
+  .content__info_metas {
+    margin: 380px 0 210px 0;
+  }
+
+  .info__percent {
+    font-size: 240px;
+  }
+
+  .info__percent>span {
+    font-size: 200px;
+  }
+
+  .info__result {
+    padding: 110px 0 0 120px;
+  }
+
+  .info__result>div>img {
+    width: 200%;
+    height: 200%;
+  }
+
+  .info__result1 {
+    width: 200%;
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  .info__result2 {
+    width: 200%;
+    border-bottom: 7px dotted #7ab9c8;
+  }
+
+  .info__result3 {
+    width: 200%;
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  .foot {
+    width: 100%;
+  }
+
+  .foot__line1 {
+    width: 75%;
+    border-bottom: 15px solid #ffffff; 
+  }
+
+  .foot__line2 {
+    width: 25%;
+    border-bottom: 15px solid #d4999b;
+  }
+
+  .foot__info {
+    width: 41%;
+    height: 100%;
+    font-size: 200%;
+    line-height: 1;
+    margin-right: 80px;
+  }
+  .foot>div:nth-child(5) {
+    clear: left;
+
+  }
+  .foot__copyright {
+    width: 41%;
+    font-size: 200%;
+    float: right;
+    margin-right: 85px;
+  }
+}
