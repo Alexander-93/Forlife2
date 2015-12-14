@@ -1,1 +1,254 @@
-*{padding:0;margin:0}@font-face{font-family:"PT Sans";font-style:normal;font-weight:400;src:local("PT Sans"),local("PTSans-Regular"),url(http://themes.googleusercontent.com/static/fonts/ptsans/v5/yrzXiAvgeQQdopyG8QSg8Q.woff) format("woff")}@font-face{font-family:"PT Sans I";font-style:italic;font-weight:400;src:local("PT Sans Italic"),local("PTSans-Italic"),url(http://themes.googleusercontent.com/static/fonts/ptsans/v5/7dSh6BcuqDLzS2qAASIeuj8E0i7KZn-EPnyo3HZu7kw.woff) format("woff")}@font-face{font-family:Plumb-Bold;src:url(../fonts/plumb-bold.ttf);font-weight:400;font-style:normal}body{background-color:#e9f2f7}.container{width:1000px;margin:auto;font-family:"PT Sans";font-size:16px}.content__info_italic,.menu__element{font-family:"PT Sans I"}.head{height:100px}.head__logo{margin:11px 74px 0 -10px;float:left}.head__menu{padding-top:42px}.menu__element{float:left;list-style:none;margin-right:22px;font-size:15.78px}.menu__element-item{color:#50727e}.menu__element-item:visited{color:#b22c2b}.menu__element-delimiter{color:#fcfdfe;font-weight:700}.content__heading1{font-size:40px;padding:30px 0 32px 3px;font-weight:400;color:#81b5cb}.content__heading2{font-size:30px;padding:83px 0 33px;font-weight:400;color:#81b5cb;clear:both}.content__info{padding:0 25px 0 31px;width:444px;float:left;line-height:21px}.info_sarkoma{color:#bf4140}.content__info_italic{font-size:15px}.info__stat-year1,.info_stat-year2,.plumb{font-family:Plumb-Bold}.content__info_indent{margin-bottom:21px}.content__info_stat{height:290px;margin:57px 0 0 -10px}.info__graph{position:relative}.info__graph>div{position:absolute}.plumb{color:#7ab9c8}.info__people{text-align:right;margin:0 -47.5px 15px 0}.info__graph-people{top:47px;left:-16px}.info__growth{top:62px;left:260px;font-size:18.79px}.info__growth-percent{font-size:35.48px}.info__people-digit{font-size:31.47px}.info__people-patient{font-size:10.49px}.info__stat-year1,.info_stat-year2{font-size:14px}.info__stat-year1{float:left;margin:8px 0 0 -12px}.info__stat-year2{float:right;margin:8px -38px 0 0}.content__info_metas{margin:80px 0 64px}.info__percent{font-size:120px;padding:10px 0 0 100px}.info__percent>span{font-size:100px;padding-left:5px}.info__result{width:200px;height:185px;padding:52px 0 0 137px}.info__result1{font-size:15px;margin:18px 0 10px;line-height:17px}.info__result2{height:1px;border-bottom:2px dotted #7ab9c8}.info__result3{font-size:13.03px;margin-top:13px;line-height:20.04px}.content__info-text{font-size:14px;margin-bottom:15px}.foot{clear:both;padding:63px 25px 0 30px}.foot__line1{height:1px;width:750px;border-bottom:2px solid #fff;float:left}.foot__line2{height:1px;width:195px;float:right;border-bottom:2px solid #d4999b}.foot__line1,.foot__line2{margin-bottom:16px}.foot__info{width:200px;height:110px;margin-right:50px;font-size:12px;line-height:16px;float:left}.info__text{margin-bottom:11px}.info__item{display:block;color:#1782a9;margin-top:-5.5px}.foot__copyright{font-size:12.5px}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url("http://themes.googleusercontent.com/static/fonts/ptsans/v5/yrzXiAvgeQQdopyG8QSg8Q.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans I";
+  font-style: italic;
+  font-weight: 400;
+  src: local("PT Sans Italic"), local("PTSans-Italic"), url("http://themes.googleusercontent.com/static/fonts/ptsans/v5/7dSh6BcuqDLzS2qAASIeuj8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+  
+@font-face {
+  font-family: "Plumb-Bold";
+  src: url("../fonts/plumb-bold.ttf");
+  font-weight: normal; 
+  font-style: normal;
+}
+
+body {
+  background-color: #e9f2f7;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  font-family: "PT Sans";
+  font-size: 16px;
+}
+
+.head {
+	height: 100px;
+}
+
+.head__logo {
+  margin: 11px 74px 0 -10px;
+  float: left;  
+}
+
+.head__menu {
+	 padding-top: 42px;
+}
+
+.menu__element {
+  float: left;
+  list-style: none;
+  margin-right: 22px;
+  font-family: "PT Sans I";
+  font-size: 15.78px;
+}
+
+.menu__element-item {
+  color: #50727e;
+}
+
+.menu__element-item:visited {
+  color: #b22c2b;
+}
+
+.menu__element-delimiter {
+  color: #fcfdfe;
+  font-weight: bold;
+}
+
+.content__heading1 {
+  font-size: 40px;
+  padding: 30px 0 32px 3px;
+  font-weight: normal;
+  color: #81b5cb;
+}
+
+.content__heading2 {
+  font-size: 30px;
+  padding: 83px 0 33px 0px;
+  font-weight: normal;
+  color: #81b5cb;
+  clear: both;
+}
+
+.content__info {
+  padding: 0 25px 0 31px;
+  width: 444px;
+  float: left;
+  line-height: 21px;
+}
+
+.info_sarkoma {
+	color: #bf4140;
+}
+
+.content__info_italic {
+  font-family: "PT Sans I";
+  font-size: 15px;
+}
+
+.content__info_indent {
+	margin-bottom: 21px;
+}
+
+.content__info_stat {
+  height: 290px;
+  margin: 57px 0px 0px -10px;
+}
+
+.info__graph {
+	position: relative;
+}
+
+.info__graph>div {
+	position: absolute;
+}
+
+.plumb {
+  font-family: "Plumb-Bold";
+  color: #7ab9c8;
+}
+
+.info__people {
+  text-align: right;
+  margin: 0 -47.5px 15px 0;
+}
+
+.info__graph-people {
+  top: 47px;
+  left: -16px;
+}
+
+.info__growth {
+  top: 62px;
+  left: 260px;
+  font-size: 18.79px;
+}
+
+.info__growth-percent {
+	font-size: 35.48px;
+}
+
+.info__people-digit {
+	font-size: 31.47px;
+}
+
+.info__people-patient {
+	font-size: 10.49px;
+}
+
+.info__stat-year1, .info__stat-year2 {
+  font-family: "Plumb-Bold";
+  font-size: 14px;  
+}
+
+.info__stat-year1 {
+  float: left;
+  margin: 8px 0 0 -12px;
+}
+
+.info__stat-year2 {
+  float: right; 
+  margin: 8px -38px 0 0;
+}
+
+.content__info_metas {
+	margin: 80px 0 64px 0;
+}
+
+.info__percent {
+  font-size: 120px;
+  padding: 10px 0 0 100px;
+}
+
+.info__percent>span {
+	font-size: 100px;
+	padding-left: 5px;
+}
+
+.info__result {
+  width: 200px;
+  height: 185px;
+  padding: 52px 0 0 137px;
+}
+
+.info__result1 {
+  font-size: 15px;
+  margin: 18px 0 10px 0;
+  line-height: 17px;
+}
+
+.info__result2 {
+  height: 1px;
+  border-bottom: 2px dotted #7ab9c8;
+}
+
+.info__result3 {
+  font-size: 13.03px;
+  margin-top: 13px;
+  line-height: 20.04px;
+}
+
+.content__info-text {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.foot {
+  clear: both;
+  padding: 63px 25px 0px 30px;
+}
+
+.foot__line1 {
+  height: 1px;
+  width: 750px;
+  border-bottom: 2px solid #ffffff;
+  float: left;  
+}
+
+.foot__line2 {
+  height: 1px;
+  width: 195px;
+  float: right;
+  border-bottom: 2px solid #d4999b;
+}
+
+.foot__line1,.foot__line2 {
+	margin-bottom: 16px;
+}
+
+.foot__info {
+  width: 200px;
+  height: 110px;
+  margin-right: 50px;
+  font-size: 12px;
+  line-height: 16px;
+  float: left;
+}
+
+.info__text {
+	margin-bottom: 11px;
+}
+
+.info__item {
+  display: block;
+  color: #1782a9;
+  margin-top: -5.5px;
+}
+
+.foot__copyright {
+	font-size: 12.5px;
+}
